@@ -150,7 +150,7 @@ connectDb()
     app.use(errorHandler);
 
     app.get("/", (_, res) => {
-      res.status(200).json({ message: "Waayu Admin API" });
+      res.status(200).json({ message: "Waayu Admin API1" });
     });
 
     app.get("/msg", (req, res) => {
